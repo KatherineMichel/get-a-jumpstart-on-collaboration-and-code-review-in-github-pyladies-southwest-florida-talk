@@ -1,5 +1,80 @@
 # Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Southwest Florida
 
+# Table of Contents
+
+- [About](#about)
+- [GitHub and Git Installation Instructions](#github-and-git-installation-instructions)
+- [Important Hacktoberfest Links](#important-hacktoberfest-links)
+- [Slides and Script Table of Contents](#slides-and-script-table-of-contents)
+- [Slides and Script](#slides-and-script)
+- [Useful Resources](#useful-resources)
+    - [Links](#links)    
+- [Attribution](#attribution)
+- [Contact Kati](#contact-kati)
+- [Copyright](#copyright)
+
+<hr>
+
+## About
+
+Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave to PyLadies Southwest Florida, PyLadies Miami, SWFL Coders, SFWL Data, and FGCU SEC Thursday, September 24, 2020 at 6:00 p.m. CST via Zoom.
+ 
+ Meetup Page
+* ["Get a Jumpstart on Collaboration and Code Review in GitHub"](https://www.meetup.com/PyLadies-SWFL/events/273309212/)
+
+Slide Deck and Video Recording
+* [Original slide deck](https://docs.google.com/presentation/d/17UG5OwojhiHYAaFjVJLncDdqMGHQAjk_W0rLoEgIp8Q/edit?usp=sharing)
+* Video recording
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+## GitHub and Git Installation Instructions
+
+* [GitHub Homepage (for user account signup)](https://github.com)
+* [Git Downloads (based on your operating system)](https://git-scm.com/downloads)
+* [Getting Started Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Homebrew Git Formula (for Mac users who use Homebrew)](https://formulae.brew.sh/formula/git)
+* [Setting Your Username in Git](https://docs.github.com/en/github/using-git/setting-your-username-in-git)
+* [Setting Your Email Address in Git](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
+
+### A few helpful commands
+
+Verify that Git is installed by typing into your command line
+
+```bash
+$ git --version
+```
+
+Verify that your username is set by typing into your command line
+
+```bash
+$ git config --global user.name
+```
+
+Verify that your email is set by typing into your command line
+
+```bash
+$ git config --global user.email
+```
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+## Important Hacktoberfest Links
+
+* [Hacktoberfest Website](https://hacktoberfest.digitalocean.com)
+* ["Browse all participating Hacktoberfest projects on GitHub"](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
+
+
+
 ## Useful Resources
 
 ### Links
@@ -12,7 +87,6 @@ Getting Set Up
 * [Getting Started Using Git and GitHub](https://docs.github.com/en/github/using-git/getting-started-with-git-and-github)
 * [Set Up Git](https://docs.github.com/en/github/getting-started-with-github/set-up-git)
 * [Getting Started Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Homebrew Git Formula](https://formulae.brew.sh/formula/git)
 
 Git Official 
 * [Git Homepage](https://git-scm.com)
