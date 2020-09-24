@@ -72,7 +72,348 @@ $ git config --global user.email
 
 <hr>
 
+## Slides and Script
 
+The script is a general outline and varies somewhat from what was said during the talk.
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 1](https://speakerd.s3.amazonaws.com/presentations/cf52ec3929b04ff58903df5071b56079/slide_0.jpg)
+
+</td><td>
+
+### Get a Jumpstart on Collaboration and Code Review in GitHub 
+
+By Katherine "Kati" Michel
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 2](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_1.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 3](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_2.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 4](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_3.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 5](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_4.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 6](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_5.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 7](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_6.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 8](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_7.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 9](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_8.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 10](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_9.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 11](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_10.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 12](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_11.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 13](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_12.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 14](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_13.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 15](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_14.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 16](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_15.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 17](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_16.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 18](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_17.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 19](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_18.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 20](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_19.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 21](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_20.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 22](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_21.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 23](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_22.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 24](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_23.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 25](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_24.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 26](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_25.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
 
 
 ## Useful Resources
