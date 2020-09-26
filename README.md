@@ -676,6 +676,565 @@ By Katherine "Kati" Michel
 </td></tr>
 
 
+<table>
+
+<tr><td width="30%">
+
+![Slide 47](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_46.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 48](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_47.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 49](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_48.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 50](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_49.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 51](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_50.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 52](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_51.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 53](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_52.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 54](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_53.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 55](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_54.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 56](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_55.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 57](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_56.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 58](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_57.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 59](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_58.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 60](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_59.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 61](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_60.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 62](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_61.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 63](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_62.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 64](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_63.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 65](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_64.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 66](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_65.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 67](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_66.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 68](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_67.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 69](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_68.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 70](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_69.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 71](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_70.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 72](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_71.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 73](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_72.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 74](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_73.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 75](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_74.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 76](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_75.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 77](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_76.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 78](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_77.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 79](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_78.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 80](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_79.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 81](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_80.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 82](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_81.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 82](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_81.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 83](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_82.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 84](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_83.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 85](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_84.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 86](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_85.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 87](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_86.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
+<table>
+
+<tr><td width="30%">
+
+![Slide 88](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_87.jpg)
+
+</td><td>
+
+### 
+
+</td></tr>
+
+
 ## Useful Resources
 
 ### Links
