@@ -955,7 +955,13 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### How to Create a Branch
+
+(Animation)
+There is a radial button you can choose to indicate you want to create a new branch. There is also a place to give the branch a new name. When you click to save the changes, they will not save in the current file. Instead, a new branch will be created. 
+* You can also create a branch through the branch button (this will be an exact copy with a new name)
+* You can also create and work on branches through the command line in your local development environment, which I will show you later. 
+* Anytime I talk about pushing to a repo or submitting a pull request, you should probably be using a branch
 
 </td></tr>
 
@@ -968,7 +974,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
+* Learn about branches
+* Work on a branch in a local development environment, push the branch to GitHub, and submit a pull request
 
 </td></tr>
 
@@ -981,7 +991,9 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Fork and Pull Model
+
+I've made a couple of diagrams that I hope will give you an idea of what the process is for working locally for each collaborative development model. 
 
 </td></tr>
 
@@ -994,7 +1006,10 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Fork and Pull Model
+
+(Animation)
+* Fork the repo
 
 </td></tr>
 
@@ -1007,7 +1022,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Fork and Pull Model
+
+(Animation)
+* Clone the fork (using the fork URL)
+Git will track some details about the project, for instance, where we cloned our code from. In relation to the clone, the GitHub repo we cloned from is now a remote repo and Git will assign the name "origin" to it. We can use the name origin in the command line to refer to the repo so we can push and pull changes back and forth between the local development environment and the GitHub repo.
 
 </td></tr>
 
@@ -1020,7 +1039,10 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Fork and Pull Model
+
+(Animation)
+* Make our changes, push the changes back to the fork (probably in a branch)
 
 </td></tr>
 
@@ -1032,8 +1054,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 ![Slide 52](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_51.jpg)
 
 </td><td>
+    
+### Fork and Pull Model
 
-### 
+(Animation)
+* Submit the pull request
 
 </td></tr>
 
@@ -1046,7 +1071,9 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Shared Repository Model
+
+Here's what it looks like when we use the "Shared Repository" Model
 
 </td></tr>
 
@@ -1059,7 +1086,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Shared Repository Model
+
+(Animation)
+* The fork is not needed, because we have write permission
+* Clone the shared repository (using the shared repo URL). The shared repository will now be the remote "origin"
 
 </td></tr>
 
@@ -1072,7 +1103,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Shared Repository Model
+
+(Animation)
+* Make our changes, probably in a branch, push the changes back to the shared repository
+* Submit the pull request
 
 </td></tr>
 
@@ -1085,7 +1120,15 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Bash Commands
+
+In GitHub, we navigate using the browser. In the local development environment, we need to use the command line to navigate directories
+
+We can use Bash commands to do that. The commands below are enough to be able to use git. The other commands we are going to use in this talk are git commands.
+
+A couple useful things to know
+* Some tasks vary by operating system- check tabs at the top of GitHub articles for special OS instructions; For instance, not all command lines use a $
+* <variable> is a placeholder for the real thing
 
 </td></tr>
 
@@ -1098,7 +1141,11 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Local Development Environment
+
+What I'm going to show you now is a generic process that you can use for a shared repository or a fork. You will clone the repo you have write permission to.
+Let's go back to the screenshot of my local development environment. 
+* I am working in my home directory. The name of home directory is at the top of the command line, and in front of the prompt. The reason why this matters is because the repo will be cloned into the directory we are working in, based on my command line.
 
 </td></tr>
 
@@ -1111,7 +1158,10 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Cloning
+
+(Animation)
+* I am going to type the command $ git clone into the command line and copy and paste the URL from the browser of either the shared repo or fork, then hit enter. 
 
 </td></tr>
 
@@ -1124,7 +1174,12 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Cloning
+
+(Animation)
+* A folder will appear in my home directory by the same name as the GitHub repo (2017.djangocon.us) and filled with the contents of the repo. 
+* This is the equivalent of the repo on the computer now
+* I now have a copy of the code online in the GitHub repo and a copy in my local development environment. 
 
 </td></tr>
 
@@ -1137,7 +1192,10 @@ Let's go back to the screenshot of editing a file in GitHub.
 
 </td><td>
 
-### 
+### Changing Directory
+
+(Animation)
+* I will now change directory into the folder so that I can work there by typing $ cd 2017.djangocon.us, which is a bash command and the folder name.
 
 </td></tr>
 
