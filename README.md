@@ -89,6 +89,7 @@ $ git config --global user.email
 - [Local Development Environment Example](#local-development-environment-example)
 - [Collaboration and Code Review Best Practice Workflow](#collaboration-and-code-review-best-practice-workflow)
 - [Working on a File in GitHub](#working-on-a-file-in-github)
+
 - [Branches](#branches)
 - [How to Create a Branch](#how-to-create-a-branch)
 - [Overview](#overview)
@@ -472,7 +473,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Repositories
+
+(Animation)
+If you click on the name, it’s a hyperlink that will open up the repo and you will see the folders and files filled with the website code that powers the website and you can look through. 
 
 </td></tr>
 
@@ -485,7 +489,15 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Local Development Environment Example
+
+* This is why it’s it’s going to look very different if you do something on GitHub the website versus in your local development environment
+When we are working on code, we can't do everything in the GitHub website (although there is a new product called Codespaces in beta)
+* For example, we might want to make a copy of the DjangoCon US website code in the local development environment of our computer, install the necessary software, and run the code in a local browser so that you can add a feature to it, or test a pull request branch.
+* There is where Git is very useful. Git is installed in our local development environment and used in the command line of your computer. You can use Git to make a snapshot of your project at any point in time and revert back if needed.
+* Here is a screenshot of my local development environment.
+* In the background I have GitHub open in the browser
+* In front of that, I have my local folder window and my command line
 
 </td></tr>
 
@@ -498,7 +510,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Local Development Environment Example
+
+(Animation)
+* I can use the web address (URL) from the GitHub repo in the command line to create a copy of the repo in my local development environment. Making a copy of a repo locally is called cloning.
 
 </td></tr>
 
@@ -511,7 +526,12 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Local Development Environment Example
+
+(Animation)
+* I can make changes and push the changes back to GitHub. 
+* Meanwhile, other users can do the same thing on their computers.
+I will elaborate on this process later.
 
 </td></tr>
 
@@ -524,7 +544,13 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
+* Learn about branches
+* Work on a branch in a local development environment, push the branch to GitHub, and submit a pull request
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Hacktoberfest recommendations… how to get started!
 
 </td></tr>
 
@@ -537,7 +563,9 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
 
 </td></tr>
 
@@ -550,7 +578,12 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### The Two Collaborative Development Models
+
+A Collaborative Development Model is a fancy term for how users contribute to a repo. There are two different models. 
+* "Shared Repository" Model
+* "Fork and Pull" Model
+The two different models typically correspond to the two different account types and which model you uses depends on whether you have write permission to the repo. 
 
 </td></tr>
 
@@ -563,7 +596,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### The Two Types of Accounts
+
+* To explain these, I’m going to talk about the two different kinds of accounts
+* Organization accounts such as the DjangoCon organization that a group of people have access to
+* User accounts that one person has access to, such as my own personal account
 
 </td></tr>
 
@@ -576,7 +613,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Write Permission
+
+* There is a thing called “write permission”
+* We are not talking about "write" permission in the context of English.
+* When a user has write permission to a repo, it means they can make changes directly inside of the repo.
 
 </td></tr>
 
@@ -589,7 +630,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Examples of What Write Permission Will Allow You to Do
+
+* Edit files
+* Push branches directly to the repo (instead of via fork)
+* Merge and close pull requests
 
 </td></tr>
 
@@ -602,8 +647,15 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Why We Need Write Permission
 
+* We need write permission because the code inside of a repo can be really valuable
+
+Example: DjangoCon US website is deployed live from the main branch and has a fairly high volume of traffic. 
+* We wouldn't want just anyone to be able to go into the DjangoCon repo and directly make changes. 
+* Someone could damage the codebase
+* So, the repo owner will give a few, trusted people write permission
+ 
 </td></tr>
 
 
@@ -615,7 +667,13 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Write Permission and Collaboration Examples
+
+* The way that we contribute to a repo depends on whether we have write permission to the repo
+
+* Let’s go back to the idea of the “Shared Repository” Model.
+* A shared repository is typically found in an organization account, because you have a group of maintainers who all have write access to a repo so that they can maintain it. A user account repo can be a shared repo but it’s not as common. I might be wrong.
+* For example, the DjangoCon US website repo is a shared repository. When I became a maintainer, I was given write permission to the repo. Along with the other maintainers, who also have write permission, I can make changes directly within the DjangoCon US website repo.
 
 </td></tr>
 
@@ -628,7 +686,14 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Write Permission and Collaboration Examples
+
+(Animation)
+So what happens if you don’t have write permission, but you want to contribute to a repo?
+* In that case, you use the “Fork and Pull” Model. 
+* This often happens in a user account
+* The person who wants to contribute makes a copy of the repo in their own user account. The copy is called a fork. Because the fork is in their own user account, they have write permission to it. 
+* For example, when I first came across the DjangoCon US website repo, I wanted to contribute, but I was not a maintainer, so I didn't have write permission. So I forked the DjangoCon US website repo into user account, made a change to it, then submitted a pull request to the Django US website repo. 
 
 </td></tr>
 
@@ -641,7 +706,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### How to Fork a Repo
+
+We've gone to the DjangoCon US website repo. 
+* Click the "Fork" button
+* Try to edit a file in a repository that you do not have write permission to. GitHub will automatically fork the repo to your user account.
 
 </td></tr>
 
@@ -654,7 +723,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### How to Fork a Repo
+
+(Animation)
+There will be a message notifying you that it is being forked.
 
 </td></tr>
 
@@ -667,7 +739,9 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Forked Repo
+
+* The forking message will lead you back to your user account.
 
 </td></tr>
 
@@ -680,7 +754,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Forked Repo
+
+(Animation)
+* In the list of repos in your account, you will now see an entry for the fork, which will also tell where it was forked from
 
 </td></tr>
 
@@ -693,7 +770,13 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Forked Repo
+
+(Animation)
+* Click on the hyperlink and it will open the repo
+* The repo URL will have my user account name in it (that’s called a namespace)
+* The fork is an exact copy of the original repo at the time it was forked. I could make any changes I wanted to the fork, including deleting it, and the original repo will not be affected. 
+* In addition to using a fork to propose a change to the original repo, you can also use a fork for the starting point of a new idea of your own (depending on the license). 
 
 </td></tr>
 
@@ -706,7 +789,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
+* Learn about branches
 
 </td></tr>
 
@@ -719,7 +805,12 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Collaboration and Code Review Best Practice Workflow Using Branches
+
+* So, you’ve identified how you are going to contribute… through a shared repo or a fork of it
+* I want to tell you about branches, which are a best practice
+* Branches are very commonly used
+* Whatever repo you are working within, you are probably going to want to use a branch to contribute
 
 </td></tr>
 
@@ -732,8 +823,12 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Working on a File in GitHub
 
+* When I first started using GitHub, I would go into my own GitHub repo, click on a file, click on the pencil icon to open the file, make a change, and save it. 
+* This is fine, but imagine if there were multiple people all working on a repo and all of them were going into files and making changes and saving them. It wouldn't be very practical. For instance, how would you give feedback? 
+* As the complexity of a project increases, within the repo, we need to make copies of the codebase to work on the code. These copies are called branches.
+ 
 </td></tr>
 
 
@@ -745,8 +840,13 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Reasons for Using Branches
 
+* There are multiple benefits to using branches
+* To keep your main branch stable
+* To work on features outside of the main branch, which may also take time
+* So that you can test and review code before merging it into your main branch
+ 
 </td></tr>
 
 
@@ -758,7 +858,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Branches
+
+* When you create or fork a repo, the default branch is probably called master (or main)
+* By the way, GitHub has recently given the option to go into your account settings and tick a box to make the default branch as main, instead of master, due to the historical context of that word
+* I highly recommend doing that and I have changed references in this talk from master to main
 
 </td></tr>
 
@@ -771,7 +875,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Branches
+
+(Animation)
+Say for instance that you want to make a change in the branch, you can make a new branch (which is a copy of the original branch) and give it a different name. Now there are two branches, in the same repo, the main branch and a feature branch (GitHub will also refer to a feature branch as a topic branch).
 
 </td></tr>
 
@@ -784,7 +891,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Branches
+
+(Animation)
+You can create an unlimited number of branches and you can switch in between them to work on them (in the browser and locally).
 
 </td></tr>
 
@@ -797,7 +907,10 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Branches
+
+(Animation)
+When the feature branch author thinks it's done, a pull request will be submitted and the feature branch will become a pull request branch. 
 
 </td></tr>
 
@@ -810,7 +923,11 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### Branches
+
+(Animation)
+If the changes are accepted, they will be merged into the main branch. The main branch will be like before, except with the changes from the feature branch.  
+* The PR request branch is the same as a regular branch… matters as a maintainer. We can do some of the same things to it, such as push changes to it
 
 </td></tr>
 
@@ -823,7 +940,9 @@ For example, if you go to the DjangoCon US organization account you will see a l
 
 </td><td>
 
-### 
+### How to Create a Branch
+
+Let's go back to the screenshot of editing a file in GitHub. 
 
 </td></tr>
 
