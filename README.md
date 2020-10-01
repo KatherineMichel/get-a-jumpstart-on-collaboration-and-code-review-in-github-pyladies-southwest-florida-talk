@@ -242,7 +242,7 @@ Toward the end of the talk, I’m going to have an exercise you can do to get st
 
 </td><td>
 
-### Good News
+### More Good News
 
 * Git and GitHub are a highly valuable, “gateway” skill... becoming proficient leads to many other opportunities
 * Not all Git/GitHub usage is public… it’s also used privately
@@ -259,7 +259,7 @@ Toward the end of the talk, I’m going to have an exercise you can do to get st
 
 </td><td>
 
-### Hacktoberfest
+### More Good News- Hacktoberfest
 
 * Hacktoberfest is a month long celebration of open source
 * If you make four PRs to active projects on GitHub and are do not miss the cut-off, you get a shirt and swag
