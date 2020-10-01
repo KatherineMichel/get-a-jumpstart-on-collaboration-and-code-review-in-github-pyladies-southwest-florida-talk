@@ -1208,7 +1208,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Changing Directory
+
+(Animation)
+* I've clicked on the folder in the folder window so that I can see the contents visually. But I can also see I am working from within the folder in my command line because the name of the folder is at the top of the command line and in front of the prompt. 
 
 </td></tr>
 
@@ -1221,7 +1224,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### GitHub Repo Versus Local Directory
+
+(Animation)
+* You can pull up your GitHub repo and your local folder and compare the files. You can see the corresponding files. The format will be slightly different between one set is being rendered in the browser, and another set are raw files. (.gitignore)
 
 </td></tr>
 
@@ -1234,7 +1240,11 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Verifying Branch
+
+(Animation)
+* If you have more than one branch in the repo that you just cloned, you can switch between branches using your command line
+* Use the command $ git branch to verify which branch you are checked out on; initially, you will be checkout out on the default branch (in this case main)
 
 </td></tr>
 
@@ -1247,7 +1257,12 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Creating a New Branch
+
+(Animation)
+* If you need to make a new branch, you can also do that through the command line and we will later push it to GitHub and it will be just like a branch we create through GitHub website
+* Create and checkout (switch) to a feature branch. We are calling this feature branch example-branch. We want to branch off of the branch we intend our changes to be merged into (note how the local files switch to the files of the branch you are checked out on, exactly the same at first, because a copy, but if you make a change in a branch and then switch back and forth between branches, you can see the difference)
+* If the branch already exists and you are just switching to it, you leave out the -b
 
 </td></tr>
 
@@ -1260,7 +1275,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Working on a File Locally
+
+(Animation)
+* Open a file in the text editor. Make your change and save it.
 
 </td></tr>
 
@@ -1273,7 +1291,12 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Adding and Committing
+
+(Animation)
+* In order for the change to become permanent, we need to commit it to Git version control
+* Add and commit our change, create a message "Creating branch and updating"
+* Be aware that there are other commands that can be used to add files… some people do not like to use the dot (not enough control over what is committed)
 
 </td></tr>
 
@@ -1286,7 +1309,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pushing
+
+(Animation)
+* Push the new branch named example-branch to GitHub to your origin (the repo you cloned from that you have write permission to)
 
 </td></tr>
 
@@ -1299,7 +1325,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### New Branch
+
+When you go to the repo that is your origin, there will now be a new branch in that repo and a message telling you it's there. The branch will not be affecting anything else. It's just there. If you click on the branch tab you can choose the name of the branch to switch to the new branch. 
+* You can also create a branch through the branch tab
 
 </td></tr>
 
@@ -1312,7 +1341,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### New Branch
+
+(Animation)
+You can toggle back and forth between the branches by clicking on the branches in the branches tab. 
 
 </td></tr>
 
@@ -1325,7 +1357,9 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Submit a Pull Request
+
+Go to the repo you want your pull request to be merged into, in this case, the DjangoCon US website repo. The reason why I say this is because you can accidentally submit a pull request to yourself in your fork. In the DjangoCon US website repo, there will also be a message here telling you about the branch and suggesting that you submit a pull request, even if the branch is in a fork, because GitHub will detect it. Click on the "Compare & pull request" button. 
 
 </td></tr>
 
@@ -1338,7 +1372,15 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Submit a Pull Request
+
+(Animation)
+* Make sure that the base branch is the branch you want your change to be merged into
+* Make sure compare branch is your branch
+* Create a pull request title and perhaps a description (some projects also use PR templates)
+* If the pull request is via a forked repo, a box will be checked by default giving maintainers the ability to edit the pull request 
+* Double check your changes
+* Click "Create pull request"
 
 </td></tr>
 
@@ -1351,7 +1393,12 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
+* Learn about branches
+* Work on a branch in a local development environment, push the branch to GitHub, and submit a pull request
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
 
 </td></tr>
 
@@ -1364,7 +1411,12 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pull Request Review Process
+
+* Now we are going to switch perspectives and pretend that we are a maintainer
+* When a pull request is submitted repo maintainers will receive a notification by browser or email to let them know there is a pull request
+* Follow the link to the pull request tab in the browser
+* Look over the information about the pull request. You can see the title and description and click on the “Files changed” link to see all of the changes that were made. 
 
 </td></tr>
 
@@ -1377,7 +1429,15 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pull Request Review Process
+
+(Animation)
+Underneath that will be:
+* A link that says “command line instructions” 
+* A merge button that you can click to merge in the browser, when you are ready
+There are a few things that can happen
+* The simplest scenario is that the change is simple enough (like a typo) that you can just click merge
+* You can also ask the person who submitted the pull request to make a change
 
 </td></tr>
 
@@ -1390,7 +1450,10 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pull Request Command Line
+
+There are some situations though where you need to fetch the pull request branch into your local development environment so you can run the code or run a test or work on the code in order to be able to merge it.
+When you click on the “command line instructions” link, it will open up a set of instructions for how to review and (possibly) merge the pull request in your local development environment. The instructions will be different depending on whether the pull request was submitted from within the shared repository or from a forked repo. The instructions are different because Git handles shared repos and forks differently locally. This is kind of irrelevant though.
 
 </td></tr>
 
@@ -1403,7 +1466,14 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pull Request Review
+
+There is some overlap in terms of the merge button and the command line instructions
+* If you follow the entire instruction set, you will manually merge the pull request branch locally into the branch it is intended to merge with and push it to that branch on GitHub
+* I don’t do that. I just follow the instructions to fetch the branch.
+* If I verify that it can be merged, I ignore the rest of the instructions and go back to the GitHub PR tab and click the merge button
+* The branch might be protected and you can revert the PR
+* The part in black is what I do. I do not do the merge/push part.
 
 </td></tr>
 
@@ -1416,7 +1486,13 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Workflow Overview
+
+* Determine which collaboration approach to use (there are two)
+* Learn about branches
+* Work on a branch in a local development environment, push the branch to GitHub, and submit a pull request
+* Review the two different types of pull requests as a DjangoCon US website repo maintainer
+* Hacktoberfest recommendations… how to get started!
 
 </td></tr>
 
@@ -1429,7 +1505,19 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Sandboxing
+
+This is the advice I wish I had had:
+* Create a repo in your own GitHub user account (this can public or private)
+* Use it to practice the your workflow until you feel confident to use it to contribute to a project
+* GitHub has a basic tutorial called Hello World… you can use it to create a repo, a branch, submit a pull request, and merge it
+* I have included this link in the Useful Resources and you might be interested in it
+* But everything in that tutorial happens in the browser
+* You can do make some contributions in the browser only… but there is a limit to what you can do there
+* If working in the browser only is what you feel comfortable with, that’s totally fine
+* You should do whatever works for you
+* The reason why I’m talking about the local dev environment is that it enables you to do more and it’s getting into more of what a dev environment is like
+* If it’s something you don’t feel comfortable doing today, it’s maybe something to work toward
 
 </td></tr>
 
@@ -1442,7 +1530,11 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Simple, But Effective
+
+* Continuing with this idea of using a sandbox repo to practice
+* I would suggest that you use this sandbox repo to work on a branch in the local dev environment similarly to what I demonstrated earlier
+* This slide and the next one are literally the process that is the basis for making a contribution from your local dev environment
 
 </td></tr>
 
@@ -1455,7 +1547,9 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Simple, But Effective
+
+After this you understand how to do this, you are going to go find a project to contribute to, for it, and use this process to contribute.
 
 </td></tr>
 
@@ -1468,7 +1562,14 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Pushing Commits to a Pull Request
+
+* You can also submit a pull request to yourself and use the command line instructions (but if the branch is local, you can’t fetch it)
+* You might also want to practice pushing a change to the pull request branch
+* The good news is that pull request branches are regular branches
+* You can push changes to the pull request branch up to the point that the PR is merged… the changes will be added to the PR
+* I’ve included a bit of code in the Useful Resources that can be used to push a change to a forked repo PR branch
+* If the contributor has left the box checkmarked giving you permission to edit the pull request 
 
 </td></tr>
 
@@ -1481,7 +1582,15 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Triaging
+
+Tips for getting started
+In the Useful Resources section there is an excellent checklist for evaluating a project and I recommend that you take a look at it. In general...
+I recommend that when you are looking for a project to contribute to:
+* Search by tag to find projects that use triaging. Triaging is where issues are sorted by difficulty level
+* Maintainers will be creating “hacktoberfest” labels
+* Be aware for “help wanted” that these can be their *problem* issues
+* As a collaborator or code reviewer, you can cherry-pick issues and pull requests that fit your skill level
 
 </td></tr>
 
@@ -1494,7 +1603,12 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Finding Community Projects Versus Via GitHub Search
+
+* Instead of finding projects through GitHub search, considering finding them through your community instead
+* One year, my local developer community collected a list of local projects
+* A lot of the projects were for non-profits and didn’t have proper docs and other stuff
+*  My contributions that year were really nice README.mds with installation instructions.
 
 </td></tr>
 
@@ -1507,7 +1621,14 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### When You Locate a Project
+
+* It’s a good idea to…
+* Use the GitHub Open Source Guide Contributing Checklist
+* Look for a CONTRIBUTING.md (might be in the .github repo… will tell you how they want you to contribute)
+Let them know if you (in issue):
+* Find an issue you want to take
+* Think of a feature that you want to add
 
 </td></tr>
 
@@ -1520,7 +1641,13 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Documentation
+
+I hope that you will make your project documentation and attitude toward community members welcoming and positive. This is a way to increase the number of contributions and increase diversity. You can go to the Useful Resources Section, follow the links to the DjangoCon US website repo documentation and use them as examples. Documentation is considered extremely useful, but is often missing.
+* README.md- gives general project information
+* LICENSE- tells you the legal terms under which you can contribute and use the code
+* CODE_OF_CONDUCT.md- a set of rules outlining the expectations and responsibilities of contributors 
+* CONTRIBUTING.md- gives info about contributing. (look for .github repo)
 
 </td></tr>
 
@@ -1533,7 +1660,11 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Newcomer Perspective is Valuable
+
+* Improve things for the next person
+* Project veterans may be unable to see the project through the eyes of a beginner
+* Create installation docs (often lacking or written for a different OS)
 
 </td></tr>
 
@@ -1546,7 +1677,14 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### When You Get Stuck
+
+It’s inevitable that you will have moments of frustration and get stuck… here are a few places where you can find help
+* Google
+* Stack Overflow
+* GitHub docs
+* Git docs
+* Atlassian and GitLab docs
 
 </td></tr>
 
@@ -1559,7 +1697,15 @@ Let's go back to the screenshot of my local development environment.
 
 </td><td>
 
-### 
+### Thank You
+Go for it everyone… I remember at the time set up an open source account, thinking to myself that 
+Feel free to contact me. If you make progress based on my talk, I'd love to know. Send me a note if you get the chance.
+
+Useful Resources: 
+https://git.io/JU2AR
+
+* Twitter handle: @KatiMichel
+* GitHub username: KatherineMichel
 
 </td></tr>
 
