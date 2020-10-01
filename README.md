@@ -1234,6 +1234,12 @@ By Katherine "Kati" Michel
 
 </td></tr>
 
+</table>
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
 
 ## Useful Resources
 
