@@ -1148,19 +1148,6 @@ By Katherine "Kati" Michel
 
 <tr><td width="30%">
 
-![Slide 82](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_81.jpg)
-
-</td><td>
-
-### 
-
-</td></tr>
-
-
-<table>
-
-<tr><td width="30%">
-
 ![Slide 83](https://speakerd.s3.amazonaws.com/presentations/de118609b58d4004b7a402c5a34b3b99/slide_82.jpg)
 
 </td><td>
