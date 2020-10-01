@@ -72,6 +72,88 @@ $ git config --global user.email
 
 <hr>
 
+## Slides and Script Table of Contents
+
+- [Get a Jumpstart on Collaboration and Code Review in GitHub](#get-a-jumpstart-on-collaboration-and-code-review-in-github)
+- [Welcome](#welcome)
+- [About Me](#about-me)
+- [Goal](#goal)
+- [Announcing TacoFancy](#announcing-tacofancy)
+- [The One Sentence that Motivated Me to Start Using GitHub](#the-one-sentence-that-motivated-me-to-start-using-github)
+- [My First Pull Request](#my-first-pull-request)
+- [DjangoCon US Website as Example Project](#djangocon-us-website-as-example-project)
+- [Prerequisites for Getting Started](#prerequisites-for-getting-started)
+- [What are Git and GitHub?](#what-are-git-and-github)
+- [Social Network](#social-network)
+- [Repositories](#repositories)
+- [Local Development Environment Example](#local-development-environment-example)
+- [Collaboration and Code Review Best Practice Workflow](#collaboration-and-code-review-best-practice-workflow)
+- [Working on a File in GitHub](#working-on-a-file-in-github)
+- [Branches](#branches)
+- [How to Create a Branch](#how-to-create-a-branch)
+- [Overview](#overview)
+- [Section 1](#section-1)
+- [The Two Collaborative Development Models](#the-two-collaborative-development-models)
+- [The Two Types of Accounts](#the-two-types-of-accounts)
+- [Write Permission](#write-permission)
+- [Examples of What Write Permission Will Allow You to Do](#examples-of-what-write-permission-will-allow-you-to-do)
+- [Why We Need Write Permission](#why-we-need-write-permission)
+- [Write Permission and Collaboration Examples](#write-permission-and-collaboration-examples)
+- [How to Fork a Repo](#how-to-fork-a-repo)
+- [Forked Repo](#forked-repo)
+- [Section 2](#section-2)
+- [Fork and Pull Model](#fork-and-pull-model)
+- [Shared Repository Model](#shared-repository-model)
+- [Bash Commands](#bash-commands)
+- [Local Development Environment](#local-development-environment)
+- [Cloning](#cloning)
+- [Changing Directory](#changing-directory)
+- [GitHub Repo Versus Local Directory](#github-repo-versus-local-directory)
+- [Verifying Branch](#verifying-branch)
+- [Creating a New Branch](#creating-a-new-branch)
+- [Working on a File Locally](#working-on-a-file-locally)
+- [Adding and Committing](#adding-and-committing)
+- [Pushing](#pushing)
+- [New Branch](#new-branch)
+- [Submit a Pull Request](#submit-a-pull-request)
+- [Section 3](#section-3)
+- [Pull Request Review Process](#pull-request-review-process)
+- [Pull Request Command Line](#pull-request-command-line)
+- [Pull Request Review Options](#pull-request-review-options)
+- [Pull Request Branches](#pull-request-branches)
+- [Pull Request Review](#pull-request-review)
+- [Merge Pull Request Locally and Push to Master Branch](#merge-pull-request-locally-and-push-to-master-branch)
+- [Tidy Up](#tidy-up)
+- [Advanced Topics](#advanced-topics)
+- [Section 4](#section-4)
+- [Common Adding and Committing Commands](#common-adding-and-committing-commands)
+- [Manual Updates](#manual-updates)
+- [Fetching Versus Pulling](#fetching-versus-pulling)
+- [Syncing a Forked Repo Clone](#syncing-a-forked-repo-clone)
+- [Syncing a Shared Repo Clone](#syncing-a-chared-repo-clone)
+- [Adding a Remote Upstream](#adding-a-remote-upstream)
+- [Syncing Commands](#syncing-commands)
+- [Common Syncing Scenarios](#common-syncing-scenarios)
+- [GitHub Flow](#github-flow)
+- [Another Workflow](#another-workflow)
+- [Learn More About Workflow](#learn-more-about-workflow)
+- [Common Branch Commands](#common-branch-commands)
+- [Section 5](#section-5)
+- [Documentation](#documentation)
+- [Code Safety](#code-safety)
+- [Additional Safety Considerations](#code-safety-considerations)
+- [Productivity Tips](#productivity-tips)
+- [Triaging](#triaging)
+- [Sandboxing](#sandboxing)
+- [Getting Help](#getting-help)
+- [Debunking Myths](#debunking-myths)
+- [Go For It!](#go-for-it)
+- [Thank You](#thank-you)
+
+:top: <sub>[**back to top**](#table-of-contents)</sub>
+
+<hr>
+
 ## Slides and Script
 
 The script is a general outline and varies somewhat from what was said during the talk.
@@ -99,7 +181,10 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Welcome
+
+* Welcome, everyone. I’m Kati Michel. I'm thrilled to have been asked to share this talk with you.
+* I’m really hoping that some of what I share today will be life changing for you the way that it has been for me
 
 </td></tr>
 
@@ -112,7 +197,11 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### About Me 
+
+* Pinax Maintainer/Web Developer (open-source Python/Django library of around 80 projects and apps created by Django core devs)
+* DjangoCon US Website Co-Chair
+* DEFNA (Django Events Foundation North America) Board Member (we oversee the high level details of DjangoCon US and Django outreach across North America)
 
 </td></tr>
 
@@ -125,7 +214,13 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Talk Goal
+
+* When I first created this talk 3 years ago, I had learned a lot of what is in it from being the DjangoCon US website maintainer
+* I wanted to teach other people, especially women, how to get started collaborating and doing code review as quickly as possible.
+* I included a lot of screenshots in this talk, because I want people to see what the process looks like, in a way that I didn’t
+* I really felt like I was in the dark while I was learning
+* I really packed the talk with a lot of knowledge… a lot of this had been difficult to learn and had taken some courage
 
 </td></tr>
 
@@ -138,7 +233,17 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Good News
+
+* I have good news
+* Now that I’ve had the benefit of several years of using what’s in the talk, I’ve improved the talk
+* There are a couple of things that I’ve learned that are really important
+* This is not about how much you know… it’s about knowing a few things that enable you to be proficient
+* There are people who are successful in using Git and GitHub who literally just use the same handful of commands and basic process over and over again
+* I’m not trying to discourage you from knowing a lot or improving
+* If you start to get discouraged or overwhelmed… just remember that the goal is to figure out a mental model and commands that you can use permanently
+
+Toward the end of the talk, I’m going to have an exercise you can do to get started using these commands in a practical way that will enable you to do a lot
 
 </td></tr>
 
@@ -151,7 +256,11 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Good News
+
+* Git and GitHub are a highly valuable, “gateway” skill... becoming proficient leads to many other opportunities
+* Not all Git/GitHub usage is public… it’s also used privately
+* Knowing how to use Git and GitHub led to me being hired not long after I created this talk
 
 </td></tr>
 
@@ -164,7 +273,11 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Hacktoberfest
+
+* Hacktoberfest is a month long celebration of open source
+* If you make four PRs to active projects on GitHub and are do not miss the cut-off, you get a shirt and swag
+* It’s a great time to contribute, because projects will be looking for contributors
 
 </td></tr>
 
@@ -177,7 +290,13 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Announcing TacoFancy
+
+* I want to tell you how I got started using open-source
+* I signed up for GitHub in April 2013. My account sat unused for 7 months. I didn’t know how to get started.
+* I happened to be looking at Twitter. 
+* I saw a tweet from a man named Dan Sinker. He had made a really delicious taco meal and decided to start a project on GitHub to share taco recipes. 
+* So I clicked on the link and went to the project to take a look. 
 
 </td></tr>
 
@@ -190,7 +309,9 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### One Life Changing Question
+
+There was one question in the project info that sincerely changed my life: "Are You New to GitHub But Want to Contribute?" 
 
 </td></tr>
 
@@ -203,7 +324,12 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### My First Pull Request
+
+* At the time, I felt like an outsider. This was the encouragement I needed. 
+* I became very determined to contribute and submitted my first pull request there.
+* I wanted to build on this experience, so I kept using Git and GitHub. I wasn’t very good at it at first
+* A lot of what I did was alone in my own account. But I improved. I learned that the mistakes disappear in the history.
 
 </td></tr>
 
@@ -216,7 +342,16 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### DjangoCon US Website as Example Project
+
+* Eventually, I wanted to start contributing to something
+* I realized that a lot of conferences were looking for website contributors
+* In 2016, I became a DjangoCon US website contributor
+* I wanted to become a maintainer. My git skills were leveling off and I recognized that being a maintainer was a valuable skill and I was curious.
+* So I just asked if I could learn how to maintain the DjangoCon US website
+* The conference leaders wholeheartedly said yes and offered me the role of Website Chair, which I accepted
+* That is where I began to learn how to be a maintainer, including how to review/merge PRs
+* That led me to write this talk and it’s why I use the DjangoCon US website as an example project in this talk
 
 </td></tr>
 
@@ -229,7 +364,17 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Prerequisites for Getting Started
+
+* These are the things that will need to be set up to do what is explained in this talk
+* At the end of my talk will be a slide with a link to the slides and other useful resources
+
+* Create a free GitHub account online
+* Install Git on your computer and set your email and username
+* Find and open your command line (a.k.a. terminal) on your computer
+* Be able to navigate via command line (See Bash commands)
+* You might also want to have a text editor of your choice installed, to use to edit files (I use VS Code)
+You will find documentation for all of these things in the Useful Resources section.
 
 </td></tr>
 
@@ -242,7 +387,11 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Housekeeping
+
+* Even though I use the word “code” in the title, this talk is more about learning the process… to enable you to do more difficult things
+* My screenshots will be in Mac OS: in the GitHub docs, there are tabs that can give info specific by OS
+* But, I think the high level process I will show you will be the same
 
 </td></tr>
 
@@ -255,7 +404,12 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### What are Git and GitHub?
+
+* GitHub is a website built on the version control software Git. 
+* I don’t know if you’ve ever been working on a file and comically saved a million versions… Git does that for you.
+* Originally Git was just used in the command line only
+* The people who built GitHub basically took Git and integrated the functionality into a user friendly website 
 
 </td></tr>
 
@@ -268,7 +422,13 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Social Network
+
+GitHub is a social network. You can:
+* Make a user profile
+* Follow people
+* Follow their activity in your newsfeed
+* Find interesting projects
 
 </td></tr>
 
@@ -281,7 +441,9 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Repositories
+
+But the really important part of GitHub is that users can store and work on code together in repositories
 
 </td></tr>
 
@@ -294,7 +456,10 @@ By Katherine "Kati" Michel
 
 </td><td>
 
-### 
+### Repositories
+
+(Animation)
+For example, if you go to the DjangoCon US organization account you will see a list of repos and at the top is the DjangoCon US website repo. 
 
 </td></tr>
 
