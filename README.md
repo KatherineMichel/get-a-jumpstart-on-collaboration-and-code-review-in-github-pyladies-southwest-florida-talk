@@ -1818,4 +1818,4 @@ Thank you!
 
 ## Copyright
 
-© 2020 Katherine Michel. All Rights Reserved.
+© 2020 to Present Katherine Michel. All Rights Reserved.
