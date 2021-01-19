@@ -19,7 +19,7 @@
 
 Slides and script for a talk Katherine "Kati" Michel ([Twitter](https://twitter.com/KatiMichel), [GitHub](https://github.com/KatherineMichel)) gave to PyLadies Southwest Florida, PyLadies Miami, SWFL Coders, SFWL Data, and FGCU SEC Thursday, September 24, 2020 at 6:00 p.m. CST via Zoom.
  
- Meetup Page
+Meetup Page
 * ["Get a Jumpstart on Collaboration and Code Review in GitHub"](https://www.meetup.com/PyLadies-SWFL/events/273309212/)
 
 Slide Deck and Video Recording
