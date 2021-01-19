@@ -1,6 +1,6 @@
 # Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Southwest Florida
 
-# Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [GitHub and Git Installation Instructions](#github-and-git-installation-instructions)
