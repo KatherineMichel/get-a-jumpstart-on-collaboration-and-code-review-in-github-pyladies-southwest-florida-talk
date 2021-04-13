@@ -1683,7 +1683,7 @@ It’s inevitable that you will have moments of frustration and get stuck… her
 </td><td>
 
 ### Thank You
-Go for it everyone… I remember at the time set up an open source account, thinking to myself that 
+Go for it everyone… 
 Feel free to contact me. If you make progress based on my talk, I'd love to know. Send me a note if you get the chance.
 
 Useful Resources: 
