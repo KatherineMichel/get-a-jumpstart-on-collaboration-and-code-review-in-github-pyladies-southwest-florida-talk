@@ -24,7 +24,7 @@ Meetup Page
 
 Slide Deck and Video Recording
 * [Original slide deck](https://docs.google.com/presentation/d/17UG5OwojhiHYAaFjVJLncDdqMGHQAjk_W0rLoEgIp8Q/edit?usp=sharing)
-* Video recording
+* [Video recording](https://www.youtube.com/watch?v=jTc2MRg3f0I)
 
 :top: <sub>[**back to top**](#table-of-contents)</sub>
 
