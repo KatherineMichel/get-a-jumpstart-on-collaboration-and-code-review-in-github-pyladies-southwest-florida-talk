@@ -1,4 +1,4 @@
-# Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Southwest Florida
+# Get a Jumpstart on Collaboration and Code Review in GitHub- PyLadies Southwest Florida Talk
 
 ## Table of Contents
 
